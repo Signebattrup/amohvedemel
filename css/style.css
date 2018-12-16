@@ -1,0 +1,1436 @@
+/*CSS document*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0%;
+    font-family: 'Raleway', sans-serif;
+    
+    background-color: #e0dfdd;
+}
+
+
+
+
+/*************** NAVIGATION ******************/
+
+header {
+    display: flex;
+    background-color: #e0dfdd;
+    width: 100%;
+    padding: 0 20px;
+    padding: 0 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1
+}
+
+
+#logo-burger {
+    display: flex;
+    align-items: center;
+    margin-left: .5em;
+
+}
+
+
+
+
+.logo1 {
+    display: flex;
+    width: 140px;
+    position: relative;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+#logo a,
+#main-nav a {
+    color: black;
+    text-decoration: none;
+}
+
+#main-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: .5em;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    align-items: center;
+}
+
+#main-nav a {
+    display: flex;
+    margin: 0 25px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#main-nav a:hover {
+    color: darkgray;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.active {
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+label {
+    display: none;
+}
+
+#logo {
+    width: 30%;
+    margin: 2%;
+
+
+}
+
+
+
+
+
+/*****************Forside*****************/
+
+
+#om-amo-mobile {
+    margin-top: 2%;
+}
+
+
+img {
+    width: 100%;
+  
+
+
+}
+
+
+
+
+
+
+/***************OM AMO***************/
+
+#om-amo1 {
+    margin-top: 2%;
+}
+
+h2 {
+    margin-left: 10%;
+    margin-top: 5%;
+
+
+}
+
+.text {
+    margin-bottom: 5%;
+    margin-left: 10%;
+
+
+}
+
+
+/****************BRØD OG BOLLER**************/
+
+#brodd {
+    background: url("../images/brod-forside.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 47vh;
+    margin-top: 2%;
+
+
+
+}
+
+
+#brod {
+    text-align: center;
+    padding: 7%;
+
+
+}
+
+h1 {
+    margin-top: 2%;
+    margin-bottom: 8%;
+}
+
+#streg{
+    
+    border-top: 2px solid #e09f9f;
+    
+    margin-top: 2%;
+}
+
+
+
+
+
+/*******************KAGER*************/
+
+#kager-start{
+background: url("../images/kager-forside.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 47vh;
+    margin-top: 2%;
+}
+
+/*****************JULEBAG***************/
+
+#julebag-start {
+    background: url("../images/julebag-forside.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 47vh;
+    margin-top: 2%;
+}
+
+
+
+/********************PEBERKAGEHUS**********/
+
+.opskrift-start{
+    margin-left: 35%;
+    width: 30%;
+    margin-top: 4%;
+    
+    
+}
+
+#peberkage-start{
+    background: url("../images/peberkagehus-start.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 50vh;
+    margin-top: 2%;
+    
+}
+
+.overskrift{
+    text-align: center;
+}
+
+.overskrift2{
+    margin-left: 32%;
+    padding-top: 4%;
+    
+}
+
+.text-opskrift{
+    text-align: center;
+    padding-right: 6%;
+    padding-left: 6%;
+    margin-bottom: 5%;
+    
+    
+}
+
+.opskrifter{
+    background-color: #e0cccb;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 4%;
+    
+    
+}
+
+.ikoner{
+    width: 5%;
+    height: 2.5vh;
+}
+
+.ikoner1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    margin-left: 36%;
+}
+
+.stk{
+    margin-right: 9%;
+}
+
+.rundtom{
+    margin-left: 4%;
+    margin-right: 4%;
+    
+}
+.prov{
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 25px;
+}
+
+
+/***************pebernodder***************/
+
+#pebernodder-start{
+    background: url("../images/pebernodder-start.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 50vh;
+    margin-top: 2%;
+}
+
+/************************HONNINGHJERTER****/
+
+#honninghjerter-start{
+    background: url("../images/honninghjerte-start.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 50vh;
+    margin-top: 2%;
+}
+
+/****************EBLESKIVER***************/
+#ebleskiver-start{
+    background: url("../images/ebleskiver-start.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 50vh;
+    margin-top: 2%;
+}
+
+/**********************JORDBAR**************/
+
+#jordbar-start{
+    background: url("../images/jordbar-forside.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 50vh;
+    margin-top: 2%;
+}
+
+/**********************cookies**************/
+
+#cookies-start{
+    background: url("../images/cookies-start.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 50vh;
+    margin-top: 2%;
+}
+
+/********************cupcakes**************/
+#cupcake-start{
+    background: url("../images/cupcakes-start.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 50vh;
+    margin-top: 2%;
+}
+
+/****************VAFLER*********************/
+#vafler-start{
+    background: url("../images/vafler-start.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 50vh;
+    margin-top: 2%;
+}
+.vafleros{
+    margin-left: 42%;
+    
+}
+/********************BAGEL******************/
+
+#bagel-start{
+    background: url("../images/bagels-start.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 50vh;
+    margin-top: 2%;
+}
+
+/*************Boller****************/
+
+#boller-start{
+    background: url("../images/boller-start.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 50vh;
+    margin-top: 2%;
+}
+
+/**********************GRYDE*****************/
+
+#gryde-start{
+    background: url("../images/stenalder-start.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 50vh;
+    margin-top: 2%;
+}
+
+/******************************hvidloeg****/
+
+#hvid-start{
+    background: url("../images/hvidlog-start.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 50vh;
+    margin-top: 2%;
+}
+
+
+/*************FOOTER***************/
+
+footer {
+
+    background-color: #b8b1a8;
+    padding-top: 15%;
+
+    width: 100%;
+
+
+}
+
+footer h3 {
+
+    margin: 2%;
+    margin-left: 10%;
+
+
+}
+
+footer p {
+    margin-left: 10%;
+    margin-top: 3%;
+
+
+}
+
+#broed-footer {
+    width: 30%;
+    margin-left: 65%;
+    margin-top: 7%;
+
+
+}
+
+
+
+
+
+@media (max-width: 900px) {
+
+    /* NAVIGATION ***********/
+    header {
+        display: block;
+    }
+
+    #logo-burger {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #logo-burger label {
+        display: block;
+        font-size: 32px;
+        cursor: pointer;
+    }
+
+    #toggle:checked + #main-nav {
+        display: block;
+    }
+
+    #main-nav {
+        display: none;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #main-nav li {
+        text-align: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    #main-nav a {
+        margin: 0;
+        line-height: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #main-nav li:last-of-type {
+        border-bottom: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------- MOBILE -------------------------------*/
+@media only screen and (max-width: 480px) {
+
+    p{font-size: 20px;}
+    
+    /*""""""""""""""""""OM-AMO"""""""""""""""""*/
+
+    #hvem-er-vi {
+        display: none;
+
+
+    }
+
+    #tablet-billede {
+        display: none;
+
+    }
+
+    #forside-om {
+        display: none;
+
+    }
+    
+    .flex img{
+        margin-top: 2%;
+    }
+    
+   
+    
+  
+
+
+
+    /********BRØD OG BOLLER*************/
+
+    #brod-flex {
+      display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+
+    .flex2 {
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+    #boller-bb, #stenalder-bb{
+        margin-left: 2%;
+    }
+   
+    
+
+    #streg{
+        width: 8%;
+   margin-left: 45%;
+    }
+    
+    .seogsa1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        
+        
+    } 
+     .seogsa{
+        width: 100%;
+    }
+    
+    
+        
+    
+   /*****Pebernodder****/
+    
+    .ikonerpeber{
+        width: 5%;
+        height: 2vh;
+    }
+    
+    .ikoner1{
+        margin-left: 32%;
+    }
+    
+    /**********************cookies**************/
+    
+    
+    .ikonercok{
+        margin-left: 28%;
+    }
+    
+
+
+/*************vafler*********/
+.vafleros{
+    margin-left: 42%;
+    
+}
+/********************BAGEL******************/
+
+.overbg{
+    margin-left: 42%;
+}
+/*************Boller****************/
+
+.bolleros{
+    margin-left: 42%;
+    
+}
+    
+    /***************Hvidlog*********************/
+    
+.overhv{
+    margin-left: 30%;
+    
+    
+}
+    
+/**********************FOOTER***************/
+
+.footer-list{
+    margin-left: -10%;
+    
+    
+    
+}
+    footer > .footer-list > p{
+        font-size: 15px;
+    }
+    
+    
+
+}
+
+/*----------------------------- TABLET ----------------------------*/
+@media only screen and (min-width: 481px) {
+
+    p{
+        font-size: 17px;
+        
+        
+    } /*#################forside########################*/
+
+    #tablet-billede {
+        background: url("../images/forside-billede.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+
+    }
+
+    hr {
+        height: 1px;
+        background: #ffffff;
+        border: 0;
+        margin: 0 auto 40px auto;
+    }
+
+    #tablet-billede {
+        height: 68vh;
+
+
+
+    }
+
+
+
+
+    #om-amo-mobile {
+        display: none;
+
+
+
+    }
+
+
+
+
+
+    .flex {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+
+
+
+    }
+
+    .flex12 {
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+    .img {
+        flex-wrap: wrap;
+        width: 99%;
+
+    }
+
+    #forside-om,
+    #boller-forside {
+        margin-top: 2%;
+
+
+    }
+
+    #boller-forside,
+    #julebag-forside {
+        margin-left: 1%;
+
+    }
+
+
+    /*******************om amo***************/
+
+
+    #hvem-er-vi {
+        background: url("../images/om-amo.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+
+    }
+
+    hr {
+        height: 1px;
+        background: #ffffff;
+        border: 0;
+        margin: 0 auto 40px auto;
+    }
+
+    #hvem-er-vi h1 {
+        font-size: 30px;
+        height: 40vh;
+        text-align: center;
+        margin-top: 25%;
+    }
+
+
+    #om-amo-billede-text {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 4%;
+
+    }
+
+    #om-amo1 {
+        width: 50%;
+        height: 50vh;
+        margin-bottom: 3%;
+    }
+
+    .text-omamo {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #om-amo-billede-text2 {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        margin-top: 4%;
+
+    }
+
+    #om-amo2 {
+        width: 50%;
+        height: 50vh;
+        margin-bottom: 3%;
+    }
+    
+    .om-text{
+        font-size: 15px;
+        
+    }
+    .text-omamo{
+        margin-top: -3%;
+        margin-right: 4%;
+    }
+
+
+    /******************BRØD OG BOLLER***********/
+
+    h1 {
+        margin-top: auto;
+        margin-bottom: 3%;
+    }
+    
+    
+
+    #brod > p {
+
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    
+    #brod-flex{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        
+        
+    }
+
+   
+    
+   
+    
+
+    
+   
+    #streg{
+        width: 5%;
+      
+    }
+
+
+/********************PEBERKAGEHUS**********/
+    
+    
+    .opskrift-start{
+        width: 19%;
+        margin-left: 40%;
+    }
+    
+    
+    .overskrift2{
+        margin-left: 40%;
+    }
+    .ikoner{
+        height: 4vh;
+         
+    }
+    
+    .ikoner1{
+        margin-left: 40%;
+    }
+    
+    .rundtom{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .sadan{
+        margin-top: 7%;
+    }
+    .ingredienser{
+        margin-top: 5.2%;
+    }
+    
+    .sadan1{
+        margin-left: 4%;
+        
+    }
+    .sadanpeber{
+       margin-top: 9%; 
+    }
+    
+    .ikoner{
+        height: 3vh;
+        
+    }
+    .ikoner1{
+        margin-left: 41%;
+    }
+
+    .seogsa{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .seogsa1{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+/*****Pebernodder****/
+    
+    .ikonerpeber{
+        width: 3%;
+        height: 2vh;
+    }
+    
+    .ikoner1{
+        margin-left: 40%;
+    }
+    
+    .ingredienser{
+        margin-top: 8%;
+        
+        
+    }
+    /*********honninghjerter*****************/
+    .honning1{
+        
+        margin-left: 10%;
+    }
+    
+    .ingredienserhonning{
+        
+        margin-top: 8%;
+    }
+    
+    /****************EBLESKIVER**************/
+    
+    
+    .ikonereble{
+        margin-left: 35%;
+    }
+    
+    .ikonere{
+        width: 4%;
+    }
+    .sadaneb1{
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    
+    /*****************jordbar*************/
+    
+    .ikonerjor{
+        width: 4%;
+    }
+    
+    .sadanjord{
+        margin-left: 8%;
+        
+        
+    }
+    
+      /*****************cookies**************/
+    
+    .ikonercok{
+        margin-left: 35%;
+    }
+    
+    .ikonerc{
+        
+        width: 3%;
+        height: 3vh;
+    }
+    .sadancok{
+        margin-left: 15%;
+        
+        
+    }
+    
+    /********************cupcakes**************/
+    
+     .ikonercup{
+        margin-left: 38%;
+    }
+    
+    .ikonercu{
+        
+        width: 4%;
+        height: 3vh;
+    }
+    .sadancupp{
+        margin-top: 1%;
+        
+        
+    }
+    
+    /*************vafler*********/
+    
+    .vafleros{
+        margin-left: 45%;
+    }
+    
+    
+    .ikonerva{
+        width: 4%;
+        
+    }
+    .sadanvaf{
+        
+        margin-left: 17%;
+    }
+    
+    
+    /********************BAGEL******************/
+
+.overbg{
+    margin-left: 45%;
+
+}
+    .ikonerbg{
+        width: 4%;
+    }
+    
+    .sadanbg{
+        
+        margin-left: 15%;
+    }
+       /*****************Boller****************/
+
+.bolleros{
+    margin-left: 45%;
+
+}
+    .ikonerb{
+        width: 4%;
+    }
+    .sadanboller{
+        margin-left: 10%;
+        margin-top: 2.5%;
+        
+    }
+    
+    /*************gryde****************/
+    
+    .ikonergryde{
+        margin-left: 38%;
+    }
+    
+    .sadangryde{
+        margin-left: 18%;
+        
+        
+    }
+    
+    /*******************hvidlog*****************/
+    
+    .sadanhv{
+        margin-left: 18%;
+        
+        
+     
+    }
+    
+    
+    /*###############FOOTER################*/
+
+    footer {
+        padding-top: 7%;
+
+
+    }
+
+    #broed-footer {
+        width: 20%;
+        margin-left: 78%;
+        margin-top: 1%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------- LAPTOP --------------------------*/
+
+@media only screen and (min-width: 850px) {
+    .img:hover {
+        opacity: 0.7;
+        transition: .2s
+    }
+    
+    
+    p{
+        font-size: 20px;
+        
+        
+    } 
+
+    /**************Forside**************/
+
+
+    .flex {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+
+
+
+    }
+
+    
+    
+    
+    .flex12 {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+
+
+    }
+
+    #kager-forside,
+    #julebag-forside {
+
+        margin-top: 2%;
+
+
+    }
+
+    #kager-forside {
+        margin-left: 1%;
+    }
+    
+    
+    
+
+
+
+    /***************OM AMO********************/
+
+
+    #hvem-er-vi h1 {
+        font-size: 30px;
+        height: 35vh;
+        text-align: center;
+        margin-top: 17%;
+    }
+
+    #om-amo1,
+    #om-amo2 {
+        height: 65vh;
+        
+
+
+    }
+    
+        .om-text{
+        font-size: 18px;
+    }
+    
+    .text-omamo{
+        margin-top: -2%;
+    }
+
+    /******************BRØD OG BOLLER*************/
+
+    
+    #brod-flex{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+      
+        
+        
+    }
+    
+     .flex2{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    
+   
+   
+
+    #text-bb{
+        font-size: 20px;
+        margin-left: 15%;
+        margin-right: 15%;
+       
+        
+    }
+    
+    h1{
+        font-size: 35px;
+    }
+    
+
+
+
+/********************PEBERKAGEHUS************/
+    
+    .opskrift-start{
+        width: 10%;
+        margin-left: 45%;
+    }
+    
+    .overskrift2{
+        margin-left: 40%;
+        font-size: 40px;
+    }
+    .ikoner1{
+        margin-left: 43%;
+    }
+    
+    .ikoner{
+        height: 5vh;
+        
+        
+    }
+    
+    .sadanpeber{
+        margin-top:10%;
+    }
+    
+    .opskrifter{
+        margin-left: 15%;
+        margin-right: 15%;
+        
+        
+        
+    }
+    
+    .ikoner{
+        width: 6%;
+    }
+    
+    .text-opskrift{
+        
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+  
+
+/*****Pebernodder****/
+    
+    .ikonerpeber{
+        width: 4%;
+        height: 4vh;
+    }
+    
+    .ikoner1{
+        margin-left: 41%;
+    }
+    
+    .ingredienser{
+        margin-top: 15%;
+        
+    }
+    
+    /*********honninghjerter*****************/
+    
+    .ingredienserhonning{
+        margin-top: 26%;
+    }
+    
+    
+    /********EBLE*******/
+    
+    .ikonereble{
+        
+        margin-left: 39%;
+    }
+    
+    .ikonere{
+        width: 4%;
+        height: 4vh;
+    }
+    
+    .sadaneb1{
+        margin-top: 5%;
+    }
+    
+    /*****************jordbar*************/
+    
+    
+    .ikonerjor{
+        width: 4%;
+        height: 4vh;
+    }
+    
+      /*****************cookies**************/
+    
+    .ikonercok{
+        margin-left: 38%;
+    }
+    
+    .ikonerc{
+        
+        width: 4%;
+        height: 4vh;
+    }
+    .sadancok{
+        margin-top: -1%;
+        margin-left: 15%;
+        
+        
+    }
+     /********************cupcakes**************/
+    .ikonercup{
+        margin-left: 39%;
+    }
+    
+    .ikonercu{
+        
+        width: 4%;
+        height: 4vh;
+    }
+    .sadancupp{
+        margin-top: 1.3%;
+        
+        
+    }
+    
+    /*************vafler*********/
+    
+    .vafleros{
+        margin-left: 45%;
+    }
+    
+    
+    .ikonerva{
+        width: 5%;
+        
+    }
+    .sadanvaf{
+        margin-top: -1%;
+        margin-left: 17%;
+    }
+    
+     /********************BAGEL******************/
+
+.overbg{
+    margin-left: 45%;
+
+}
+    .ikonerbg{
+        width: 5%;
+    }
+    
+    .sadanbg{
+        margin-left: 14%;
+        margin-top: -1%; 
+        
+    }
+    
+    /***********BOLLER***********/
+    
+    #boller-start{
+        height: 65vh;
+    }
+    .bolleros{
+        margin-left: 45%;
+    }
+    .ikonerb{
+        width: 5%;
+    }
+    .sadanboller{
+        margin-top: 3.5%;
+    }
+    
+    /**************************gryde***********/
+    
+    .sadangryde{
+        margin-top: -1%;
+    }
+    #gryde-start{
+        height: 65vh;
+    }
+    
+    
+    
+    /*********************hvidlog**************/
+    
+    #hvid-start{
+        height: 67vh;
+    }
+    
+    
+    
+    
+    /***********************FOOTER******************/
+
+    footer {
+        padding-top: 2%;
+
+
+
+    }
+
+    #footer-list,
+    p {
+        margin-top: 1%;
+
+    }
+
+    #broed-footer {
+
+        width: 13%;
+        margin-left: 86%;
+
+    }
+
+
+
+}
